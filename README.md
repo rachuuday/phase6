@@ -1,28 +1,27 @@
-# Capstone Project- Medicare
-## Project Background
-Medicare is a company that supplies medicines and a couple of other healthcare essentials at an affordable price. It was established in 2012 in Delhi, India. The Medicare team has decided to develop a dynamic and responsive web application for online ordering of medicines.
+# Medicare
 
-## Run the application
-Download or clone the content of repository. Then follow the instruction given below:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
-### Setup for frontend
-1. Open the folder Medicare-Frontend.
-2. Then Install node.js from https://nodejs.org/en/download/.
-3. Then open cmd and paste: npm install -g @angular/cli
-4. Then open cmd in Medicare-Frontend and paste: npm install. 
-5. After installation, in cmd paste: ng serve -o
+## Development server
 
-### Setup for database
-1. Open the MySQL Database.
-2. Click on Server -> import data -> Import from Dump Project Folder.
-3. Select the dump folder from Medicare-DB-MySQL folder and click start import.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-### Setup for backend
-1. Open Eclipse Ide. import maven project Medicare-Backend.
-2. Open the MedicareBackendApplication.java file. Right click and select run as java application.
+## Code scaffolding
 
-The web application is now ready to use in http://localhost:4200/
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Admin Details:
-Username: admin@medicare.com
-Password: admin12345
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
